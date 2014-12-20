@@ -4,8 +4,7 @@ Feature: Indicate availability
   I want to indicate the dates I'm available for a meeting
 
   Scenario: Indicate availability for a set of dates
-    Given today is "2001-01-01"
-    And the default availability is "Maybe"
+    Given the default availability is "Maybe"
     When I set my availability to:
       | Date       | Available |
       | 2001-01-02 | Maybe     |
